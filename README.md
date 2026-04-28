@@ -1,4 +1,4 @@
-# **Multimodal-OCR3**
+# Multi Input Models OCR
 
 Optical Character Recognition (OCR) unlocks numerous possibilities in data management.
 
