@@ -19,6 +19,8 @@ To run multi-input-models-ocr locally, you need to configure a Python environmen
 **1. Install Core Requirements**
 Install the necessary machine learning and UI libraries by running `pip install -r requirements.txt`.
 
+The script was written with practical examples in mind. To use this feature place .pdf pages within an examples/ folder with the labels `1.jpg`, `2.jpg`, `3.jpg` and `4.jpg`.
+
 ### **Usage**
 
 Once your environment is set up and the dependencies are installed, you can launch the application by running the main Python script:
