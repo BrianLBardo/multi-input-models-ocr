@@ -947,7 +947,7 @@ function init() {
             const blob = new Blob([text], {type: 'text/plain;charset=utf-8'});
             const a = document.createElement('a');
             a.href = URL.createObjectURL(blob);
-            a.download = 'multimodal_ocr3_output.txt';
+            a.download = 'multi_input_model_output.txt';
             document.body.appendChild(a);
             a.click();
             setTimeout(() => {
@@ -1156,7 +1156,7 @@ with gr.Blocks() as demo:
         <div class="app-header">
             <div class="app-header-left">
                 <div class="app-logo">{OCR_LOGO_SVG}</div>
-                <span class="app-title">Multimodal OCR3</span>
+                <span class="app-title">Multi Input Model</span>
                 <span class="app-badge">vision enabled</span>
                 <span class="app-badge fast">OCR Suite</span>
             </div>
@@ -1278,7 +1278,7 @@ with gr.Blocks() as demo:
         </div>
 
         <div class="exp-note">
-            Experimental OCR Suite &middot; Open on <a href="https://github.com/PRITHIVSAKTHIUR/Multimodal-OCR3" target="_blank">GitHub</a>
+            Experimental OCR Suite &middot; Open on <a href="https://github.com/BrianLBardo/multi-input-models-ocr" target="_blank">GitHub</a>
         </div>
 
         <div class="app-statusbar">
