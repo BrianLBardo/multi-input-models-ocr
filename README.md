@@ -24,7 +24,7 @@ Install the necessary machine learning and UI libraries by running `pip install 
 Once your environment is set up and the dependencies are installed, you can launch the application by running the main Python script:
 
 ```bash
-python app.py
+python main.py
 ```
 
 After the script initializes the interface, it will provide a local web address (usually `http://127.0.0.1:7860/`) which you can open in your browser to interact with the models. Note that the selected models will be downloaded and loaded into VRAM upon their first invocation.
