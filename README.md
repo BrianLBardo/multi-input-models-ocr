@@ -21,6 +21,8 @@ Install the necessary machine learning and UI libraries by running `pip install 
 
 The script was written with practical examples in mind. To use this feature place .pdf pages within an examples/ folder with the labels `1.jpg`, `2.jpg`, `3.jpg` and `4.jpg`.
 
+I am currently working on either changing example type or getting my hands on good examples
+
 ### **Usage**
 
 Once your environment is set up and the dependencies are installed, you can launch the application by running the main Python script:
